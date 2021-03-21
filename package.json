@@ -1,0 +1,22 @@
+{
+  "name": "nodetestingusingmochaandchai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "express": "^4.17.1",
+    "nyc": "^15.1.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node ./app/server.js",
+    "test": "npx mocha --reporter spec",
+    "coverage": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC"
+}
